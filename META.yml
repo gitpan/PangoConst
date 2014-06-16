@@ -1,0 +1,25 @@
+---
+abstract: 'the Pango constants without Glib / Gtk2'
+author:
+  - 'Ben Bullock <bkb@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: PangoConst
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  perl: 5.006001
+resources:
+  bugtracker: https://github.com/benkasminbullock/pangoconst/issues
+  repository: git://github.com/benkasminbullock/pangoconst.git
+version: 0.01
